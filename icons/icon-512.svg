@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#041414" rx="85"/>
+  <g transform="translate(256, 256)">
+    <!-- Dumbbell -->
+    <rect x="-160" y="-21" width="320" height="42" fill="#96986c" rx="10"/>
+    <rect x="-186" y="-64" width="52" height="128" fill="#96986c" rx="10"/>
+    <rect x="134" y="-64" width="52" height="128" fill="#96986c" rx="10"/>
+    <!-- Lightning bolt accent -->
+    <path d="M-21 -106 L21 -26 L0 -26 L21 54 L-21 -26 L0 -26 Z" fill="#bcff00"/>
+  </g>
+</svg>

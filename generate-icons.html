@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Generate Icons</title>
+</head>
+<body>
+    <h1>Right-click each canvas and "Save image as..." to create the PNG icons</h1>
+
+    <h2>192x192</h2>
+    <canvas id="icon192" width="192" height="192"></canvas>
+
+    <h2>512x512</h2>
+    <canvas id="icon512" width="512" height="512"></canvas>
+
+    <script>
+        function drawIcon(canvas, size) {
+            const ctx = canvas.getContext('2d');
+            const scale = size / 192;
+
+            // Background
+            ctx.fillStyle = '#1a1a2e';
+            ctx.beginPath();
+            ctx.roundRect(0, 0, size, size, 32 * scale);
+            ctx.fill();
+
+            // Center
+            const cx = size / 2;
+            const cy = size / 2;
+
+            // Dumbbell bar
+            ctx.fillStyle = '#4ecdc4';
+            ctx.beginPath();
+            ctx.roundRect(cx - 60 * scale, cy - 8 * scale, 120 * scale, 16 * scale, 4 * scale);
+            ctx.fill();
+
+            // Left weight
+            ctx.beginPath();
+            ctx.roundRect(cx - 70 * scale, cy - 24 * scale, 20 * scale, 48 * scale, 4 * scale);
+            ctx.fill();
+
+            // Right weight
+            ctx.beginPath();
+            ctx.roundRect(cx + 50 * scale, cy - 24 * scale, 20 * scale, 48 * scale, 4 * scale);
+            ctx.fill();
+
+            // Lightning bolt
+            ctx.fillStyle = '#ff6b35';
+            ctx.beginPath();
+            ctx.moveTo(cx - 8 * scale, cy - 40 * scale);
+            ctx.lineTo(cx + 8 * scale, cy - 10 * scale);
+            ctx.lineTo(cx, cy - 10 * scale);
+            ctx.lineTo(cx + 8 * scale, cy + 20 * scale);
+            ctx.lineTo(cx - 8 * scale, cy - 10 * scale);
+            ctx.lineTo(cx, cy - 10 * scale);
+            ctx.closePath();
+            ctx.fill();
+        }
+
+        drawIcon(document.getElementById('icon192'), 192);
+        drawIcon(document.getElementById('icon512'), 512);
+    </script>
+</body>
+</html>

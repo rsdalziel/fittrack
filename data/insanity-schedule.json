@@ -1,0 +1,123 @@
+{
+    "weeks": [
+        {
+            "week": 1,
+            "days": [
+                { "day": 1, "workout": "Fit Test", "fitTest": true },
+                { "day": 2, "workout": "Plyometric Cardio Circuit" },
+                { "day": 3, "workout": "Cardio Power & Resistance" },
+                { "day": 4, "workout": "Cardio Recovery" },
+                { "day": 5, "workout": "Pure Cardio" },
+                { "day": 6, "workout": "Plyometric Cardio Circuit" },
+                { "day": 7, "workout": "Rest", "rest": true }
+            ]
+        },
+        {
+            "week": 2,
+            "days": [
+                { "day": 8, "workout": "Cardio Power & Resistance" },
+                { "day": 9, "workout": "Pure Cardio" },
+                { "day": 10, "workout": "Plyometric Cardio Circuit" },
+                { "day": 11, "workout": "Cardio Recovery" },
+                { "day": 12, "workout": "Cardio Power & Resistance" },
+                { "day": 13, "workout": "Pure Cardio & Cardio Abs" },
+                { "day": 14, "workout": "Rest", "rest": true }
+            ]
+        },
+        {
+            "week": 3,
+            "days": [
+                { "day": 15, "workout": "Fit Test", "fitTest": true },
+                { "day": 16, "workout": "Plyometric Cardio Circuit" },
+                { "day": 17, "workout": "Cardio Power & Resistance" },
+                { "day": 18, "workout": "Cardio Recovery" },
+                { "day": 19, "workout": "Pure Cardio & Cardio Abs" },
+                { "day": 20, "workout": "Plyometric Cardio Circuit" },
+                { "day": 21, "workout": "Rest", "rest": true }
+            ]
+        },
+        {
+            "week": 4,
+            "days": [
+                { "day": 22, "workout": "Cardio Power & Resistance" },
+                { "day": 23, "workout": "Pure Cardio & Cardio Abs" },
+                { "day": 24, "workout": "Plyometric Cardio Circuit" },
+                { "day": 25, "workout": "Cardio Recovery" },
+                { "day": 26, "workout": "Cardio Power & Resistance" },
+                { "day": 27, "workout": "Pure Cardio & Cardio Abs" },
+                { "day": 28, "workout": "Rest", "rest": true }
+            ]
+        },
+        {
+            "week": 5,
+            "days": [
+                { "day": 29, "workout": "Core Cardio & Balance" },
+                { "day": 30, "workout": "Core Cardio & Balance" },
+                { "day": 31, "workout": "Core Cardio & Balance" },
+                { "day": 32, "workout": "Core Cardio & Balance" },
+                { "day": 33, "workout": "Core Cardio & Balance" },
+                { "day": 34, "workout": "Core Cardio & Balance" },
+                { "day": 35, "workout": "Rest", "rest": true }
+            ]
+        },
+        {
+            "week": 6,
+            "days": [
+                { "day": 36, "workout": "Fit Test", "fitTest": true },
+                { "day": 37, "workout": "Max Interval Circuit" },
+                { "day": 38, "workout": "Max Interval Plyo" },
+                { "day": 39, "workout": "Max Cardio Conditioning" },
+                { "day": 40, "workout": "Max Recovery" },
+                { "day": 41, "workout": "Max Interval Circuit" },
+                { "day": 42, "workout": "Rest", "rest": true }
+            ]
+        },
+        {
+            "week": 7,
+            "days": [
+                { "day": 43, "workout": "Max Interval Plyo" },
+                { "day": 44, "workout": "Max Cardio Conditioning & Cardio Abs" },
+                { "day": 45, "workout": "Max Interval Circuit" },
+                { "day": 46, "workout": "Max Recovery" },
+                { "day": 47, "workout": "Max Interval Plyo" },
+                { "day": 48, "workout": "Max Cardio Conditioning & Cardio Abs" },
+                { "day": 49, "workout": "Rest", "rest": true }
+            ]
+        },
+        {
+            "week": 8,
+            "days": [
+                { "day": 50, "workout": "Fit Test", "fitTest": true },
+                { "day": 51, "workout": "Max Interval Circuit" },
+                { "day": 52, "workout": "Max Interval Plyo" },
+                { "day": 53, "workout": "Max Cardio Conditioning" },
+                { "day": 54, "workout": "Max Recovery" },
+                { "day": 55, "workout": "Max Interval Circuit" },
+                { "day": 56, "workout": "Rest", "rest": true }
+            ]
+        },
+        {
+            "week": 9,
+            "days": [
+                { "day": 57, "workout": "Max Interval Plyo" },
+                { "day": 58, "workout": "Max Cardio Conditioning & Cardio Abs" },
+                { "day": 59, "workout": "Max Interval Circuit" },
+                { "day": 60, "workout": "Max Recovery" },
+                { "day": 61, "workout": "Max Interval Plyo" },
+                { "day": 62, "workout": "Max Cardio Conditioning & Cardio Abs" },
+                { "day": 63, "workout": "Fit Test (Final)", "fitTest": true }
+            ]
+        }
+    ],
+    "fitTestDays": [1, 15, 36, 50, 63],
+    "fitTestExercises": [
+        "Switch Kicks",
+        "Power Jacks",
+        "Power Knees",
+        "Power Jumps",
+        "Globe Jumps",
+        "Suicide Jumps",
+        "Push-Up Jacks",
+        "Low Plank Oblique"
+    ]
+}
