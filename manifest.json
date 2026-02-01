@@ -2,10 +2,10 @@
     "name": "FitTrack - Workout Tracker",
     "short_name": "FitTrack",
     "description": "Track BODI Insanity and StrongLifts 5x5 workouts",
-    "start_url": "/",
+    "start_url": "./",
     "display": "standalone",
-    "background_color": "#041414",
-    "theme_color": "#041414",
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff",
     "orientation": "portrait",
     "icons": [
         {

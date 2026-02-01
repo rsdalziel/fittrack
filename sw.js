@@ -1,24 +1,24 @@
-const CACHE_NAME = 'fittrack-v10';
+const CACHE_NAME = 'fittrack-v11';
 const ASSETS = [
-    '/',
-    '/index.html',
-    '/manifest.json',
-    '/css/main.css',
-    '/js/app.js',
-    '/js/db.js',
-    '/js/router.js',
-    '/js/screens/calendar.js',
-    '/js/screens/home.js',
-    '/js/screens/insanity-calendar.js',
-    '/js/screens/fit-test.js',
-    '/js/screens/fit-test-progress.js',
-    '/js/screens/stronglifts-calendar.js',
-    '/js/screens/workout.js',
-    '/js/screens/settings.js',
-    '/js/screens/log-activity.js',
-    '/data/insanity-schedule.json',
-    '/icons/icon-192.svg',
-    '/icons/icon-512.svg'
+    './',
+    './index.html',
+    './manifest.json',
+    './css/main.css',
+    './js/app.js',
+    './js/db.js',
+    './js/router.js',
+    './js/screens/calendar.js',
+    './js/screens/home.js',
+    './js/screens/insanity-calendar.js',
+    './js/screens/fit-test.js',
+    './js/screens/fit-test-progress.js',
+    './js/screens/stronglifts-calendar.js',
+    './js/screens/workout.js',
+    './js/screens/settings.js',
+    './js/screens/log-activity.js',
+    './data/insanity-schedule.json',
+    './icons/icon-192.svg',
+    './icons/icon-512.svg'
 ];
 
 // Install event - cache all assets
@@ -66,7 +66,7 @@ self.addEventListener('fetch', (event) => {
             .catch(() => {
                 // Offline fallback for navigation
                 if (event.request.mode === 'navigate') {
-                    return caches.match('/index.html');
+                    return caches.match('./index.html');
                 }
             })
     );

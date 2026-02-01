@@ -5,7 +5,7 @@ let schedule = null;
 
 async function loadSchedule() {
     if (!schedule) {
-        const response = await fetch('/data/insanity-schedule.json');
+        const response = await fetch('./data/insanity-schedule.json');
         schedule = await response.json();
     }
     return schedule;
